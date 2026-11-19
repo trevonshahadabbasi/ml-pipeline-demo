@@ -22,7 +22,7 @@ def clean_data(df, numeric_columns, categorical_columns):
     # Fill numeric missing values with median
     for col in numeric_columns:
         if col in df.columns:
-            df[col] = df[col].fillna(df[col].median())
+            df[col] = df[col].fillna(0)
 
     # Fill categorical missing values with mode
     for col in categorical_columns:
