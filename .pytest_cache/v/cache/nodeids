@@ -1,0 +1,16 @@
+[
+  "tests/test_preprocessing.py::TestCleanData::test_does_not_modify_original",
+  "tests/test_preprocessing.py::TestCleanData::test_fills_numeric_nulls",
+  "tests/test_preprocessing.py::TestCleanData::test_fills_with_median",
+  "tests/test_preprocessing.py::TestCleanData::test_non_null_values_unchanged",
+  "tests/test_preprocessing.py::TestDataQuality::test_counts_nulls",
+  "tests/test_preprocessing.py::TestDataQuality::test_counts_rows",
+  "tests/test_preprocessing.py::TestDataQuality::test_reports_numeric_ranges",
+  "tests/test_preprocessing.py::TestEncodeCategoricals::test_creates_dummy_columns",
+  "tests/test_preprocessing.py::TestEncodeCategoricals::test_drops_first_category",
+  "tests/test_preprocessing.py::TestEncodeCategoricals::test_preserves_row_count",
+  "tests/test_preprocessing.py::TestValidateDataframe::test_empty_dataframe_raises",
+  "tests/test_preprocessing.py::TestValidateDataframe::test_missing_column_raises",
+  "tests/test_preprocessing.py::TestValidateDataframe::test_missing_target_raises",
+  "tests/test_preprocessing.py::TestValidateDataframe::test_valid_dataframe_passes"
+]
